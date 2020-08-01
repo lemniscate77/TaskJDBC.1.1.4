@@ -6,7 +6,9 @@ import jm.task.core.jdbc.util.Util;
 import java.lang.reflect.InvocationTargetException;
 import java.sql.SQLException;
 
-/*  версия 1.0 - добавляем в новый репозиторий */
+/*  версия 1.0 - добавляем в новый репозиторий
+* внесем еще изменения чтобы отследить работу git
+*  */
 
 public class Main {
     public static void main(String[] args) throws SQLException, ClassNotFoundException, NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
@@ -22,7 +24,7 @@ public class Main {
         userService.saveUser("Jhony", "Depp", (byte) 45);
         userService.saveUser("Kianu ", "Rivs", (byte) 47);
         userService.getAllUsers();
-        userService.removeUserById(2);
+        userService.removeUserById(3);
 
     }
 }
