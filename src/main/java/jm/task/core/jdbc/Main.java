@@ -7,8 +7,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.sql.SQLException;
 
 /*  версия 1.0 - добавляем в новый репозиторий
-* внесем еще изменения чтобы отследить работу git
-*  */
+коммитим этот проект на lemniscate77 git  */
 
 public class Main {
     public static void main(String[] args) throws SQLException, ClassNotFoundException, NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
